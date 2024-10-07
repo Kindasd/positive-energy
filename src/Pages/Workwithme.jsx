@@ -33,9 +33,17 @@ export default()=>{
      
       </div>
 
-      <div className="col-md-5">
-        <img width="465px" height="700PX" src={IMG1} alt="" />
-      </div>
+      
+      <div className="col-12 col-md-5">
+              <img 
+              
+                className="img-fluid" 
+                src={IMG1} 
+                alt="" 
+                width="465" 
+                height="600" 
+              />
+            </div>
    
   </div>
     <div className="row mx-0" style={{padding:"20px"}}>

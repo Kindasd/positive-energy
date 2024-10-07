@@ -25,9 +25,15 @@ export default()=>{
     <div style={{background:"rgb(247, 199, 167)"}}>
   
         <div className="row mx-0 " >
-            <div className="col-md-6 mt-3  ">
-              <img width="465PX" height="600PX" src={PHOTO1} alt="" />
-            </div>
+        <div className="col-12 col-md-6 mt-3">
+  <img 
+    className="img-fluid" 
+    src={PHOTO1} 
+    alt="" 
+    width="465" 
+    height="600" 
+  />
+</div>
             <div className="col-md-6 text-light text-center" style={{marginTop:"50px"}}>
             <div data-aos="zoom-in-up" style={{ color: "rgb(127, 127, 240) ",marginBottom:"20px"}}> <FilterVintageIcon sx={{ fontSize: 80 }} /></div>
 
@@ -105,8 +111,16 @@ export default()=>{
                 
             </div>
             
-            <div className="col-md-5">
-              <img data-aos="zoom-in-up" width="465PX" height="700PX" src={SELFLOVE} alt="" />
+           
+            <div className="col-12 col-md-5">
+              <img 
+              data-aos="zoom-in-up"
+                className="img-fluid" 
+                src={SELFLOVE} 
+                alt="" 
+                width="465" 
+                height="600" 
+              />
             </div>
 
             

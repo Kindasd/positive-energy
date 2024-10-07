@@ -65,9 +65,18 @@ const CourseComponent = () => {
       
          
         </div>
-        <div className="col-md-5 mt-3">
-          <img width="465px" height="700px" src={PHOTO2} alt="Course Image" />
-        </div>
+        
+        <div className="col-12 col-md-5 mt-3">
+              <img 
+              
+                className="img-fluid" 
+                src={PHOTO2} 
+                alt="" 
+                width="465" 
+                height="600" 
+              />
+            </div>
+
       </div>
        
     

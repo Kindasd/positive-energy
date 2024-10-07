@@ -47,16 +47,16 @@ export default()=>{
 
   <div className="row mx-0 text-center " style={{marginTop:"100px"}}>
     <div className="col-md-4 text-center"> 
-     <img style={{marginTop:"60px"}} data-aos="zoom-in-up" width="390PX" src={IMG3}  />
+     <img className="img-fluid" style={{marginTop:"60px"}} data-aos="zoom-in-up" width="390PX" src={IMG3}  />
      <div style={{display:"flex"}}><div style={{fontSize:"30px",fontfamily:"initial",color:"rgb(245, 97, 52)",margin:"auto"}}>Ep.6/ Loving Yourself</div> </div>
     </div>
     <div className="col-md-4 text-center"> 
-    <img data-aos="zoom-in-up" width="390PX" src={IMG4} />
+    <img className="img-fluid" data-aos="zoom-in-up" width="390PX" src={IMG4} />
     <div style={{display:"flex"}}> <div style={{fontSize:"30px",fontfamily:"initial",color:"rgb(245, 97, 52)",margin:"auto"}}>Ep.5/ Overcoming Fear</div>
     </div>
     </div>
     <div className="col-md-4 text-center">
-    <img style={{marginTop:"90px"}} data-aos="zoom-in-up"   width="390PX" src={IMG6}  /> 
+    <img className="img-fluid" style={{marginTop:"90px"}} data-aos="zoom-in-up"   width="390PX" src={IMG6}  /> 
     <div style={{display:"flex"}}> <div style={{fontSize:"30px",fontfamily:"initial",color:"rgb(245, 97, 52)",margin:"auto"}}>Ep.4/ Relationships</div>
     </div>
     </div>
@@ -66,16 +66,16 @@ export default()=>{
 
     <div className="row mx-0 mt-4 text-center">
     <div className="col-md-4 text-center"> 
-      <div  data-aos="zoom-in-up" style={{marginTop:"50px"}}><img width="390PX" src={IMG8}  /></div>
+      <div  data-aos="zoom-in-up" style={{marginTop:"50px"}}><img className="img-fluid" width="390PX" src={IMG8}  /></div>
      <div style={{display:"flex"}}><div style={{fontSize:"30px",fontfamily:"initial",color:"rgb(245, 97, 52)",margin:"auto",marginBottom:"70px"}}>Ep.2/ Family</div> </div>
     </div>
     <div className="col-md-4 text-center"> 
-    <div data-aos="zoom-in-up" style={{marginTop:"-50px"}}> <img width="390PX" src={IMG7} /></div>
+    <div data-aos="zoom-in-up" style={{marginTop:"-50px"}}> <img className="img-fluid" width="390PX" src={IMG7} /></div>
     <div style={{display:"flex"}}> <div style={{fontSize:"30px",fontfamily:"initial",color:"rgb(245, 97, 52)",margin:"auto"}}>Ep.3/ Burnout</div>
     </div>
     </div>
     <div className="col-md-4 text-center">
-    <div data-aos="zoom-in-up" style={{marginTop:"100px"}}><img width="390PX" src={IMG9}  /> </div>
+    <div data-aos="zoom-in-up" style={{marginTop:"100px"}}><img className="img-fluid" width="390PX" src={IMG9}  /> </div>
     <div style={{display:"flex"}}> <div style={{fontSize:"25px",fontfamily:"initial",color:"rgb(245, 97, 52)",margin:"auto"}}>EEp.1/ Recharge your self-esteem</div>
     </div>
     </div>
