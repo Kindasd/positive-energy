@@ -40,17 +40,19 @@ const CourseComponent = () => {
   
     
       <div className="row mx-0">
-        <div className="col-md-7 text-center" style={{padding:"90px"}}>
-          
-          <b style={{ marginBottom: "10px" ,marginTop:"20px"}}>
+        <div className="col-md-6 text-center" style={{padding:"80px"}}>
+        <div>
+          <b style={{ marginBottom: "5px" ,marginTop:"10px"}}>
           <div data-aos="zoom-in-up" style={{ color: "rgb(127, 127, 240)",marginBottom:"30px"}}> <LightModeIcon sx={{ fontSize: 80 }}  /> </div>
 
             
             <i className="text3">Self love</i>
           </b>
+         
           <b>
             <i className="text3">course</i>
           </b>
+          </div>
           <div>
             <i className="text4">SEPT 14—16</i>
           </div>
@@ -66,13 +68,14 @@ const CourseComponent = () => {
          
         </div>
         
-        <div className="col-12 col-md-5 mt-3">
+        <div className="col-12 col-md-6 mt-5">
               <img 
               
                 className="img-fluid" 
+                
                 src={PHOTO2} 
                 alt="" 
-                width="465" 
+                 
                 height="600" 
               />
             </div>
@@ -134,8 +137,17 @@ const CourseComponent = () => {
       </div>
 
       <div className="row mx-0 mt-2">
-        <div className="col-md-6"  data-aos="zoom-in-up">
-          <img width="465px"  height="700px" src={PHOTO3} alt="Course Structure" />
+       
+        <div className="row mx-0 " >
+             <div className="col-12 col-md-6 mt-2">
+          <img 
+          data-aos="zoom-in-up"
+            className="img-fluid" 
+            src={PHOTO3} 
+            alt="" 
+             
+            height="600" 
+          />
         </div>
         <div className="col-md-6 text-light text-center">
           <b className="text1" style={{ marginBottom: "70px", color: "rgb(245, 97, 52)" }}>
@@ -202,10 +214,11 @@ const CourseComponent = () => {
           </Splide>
         </div>
 
-        
+        </div>
       </div>
       </div>
     </>
+    
   );
 };
 

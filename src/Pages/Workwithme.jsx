@@ -79,9 +79,18 @@ export default()=>{
 
     <div className="row mx-0 mt-3" >
 
-    <div className="col-md-6">
-        <img data-aos="zoom-in-up" width="465px" height="700px" src={IMG2} alt="" />
-      </div>
+    
+      <div className="row mx-0 " >
+             <div className="col-12 col-md-6 ">
+          <img 
+          data-aos="zoom-in-up" 
+            className="img-fluid" 
+            src={IMG2} 
+            alt="" 
+            width="465" 
+            height="600" 
+          />
+        </div>
    
   <div className="col-md-6 text-light text-center" style={{marginTop:"20px"}}>
 
@@ -108,7 +117,7 @@ export default()=>{
 
 
 
-    
+  </div> 
     
   </div>  
     </>)
