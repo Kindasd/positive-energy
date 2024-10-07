@@ -75,7 +75,7 @@ const CourseComponent = () => {
                 
                 src={PHOTO2} 
                 alt="" 
-                 
+                 width="600"
                 height="600" 
               />
             </div>
@@ -145,7 +145,7 @@ const CourseComponent = () => {
             className="img-fluid" 
             src={PHOTO3} 
             alt="" 
-             
+            width="600"
             height="600" 
           />
         </div>

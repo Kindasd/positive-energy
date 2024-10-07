@@ -30,7 +30,7 @@ export default()=>{
             className="img-fluid" 
             src={PHOTO1} 
             alt="" 
-            width="465" 
+            width="600" 
             height="600" 
           />
         </div>
@@ -101,8 +101,8 @@ export default()=>{
         </div>
       </div>
 
-      <div className="row mx-0 " style={{marginTop:"70px"}}>
-            <div className="col-md-7 text-light text-center" style={{marginTop:"130px"}}>
+      <div className="row mx-0 " style={{marginTop:"70px",marginBottom:"50px"}}>
+            <div className="col-md-6 text-light text-center" style={{marginTop:"60px"}}>
                 <b  className="text1" style={{marginBottom:"10px"}}><i> upcoming </i></b>
                 <b className="text1"> <i > course</i></b>
                 <div><i className="text2"> SELF LOVE</i></div>
@@ -112,13 +112,13 @@ export default()=>{
             </div>
             
            
-            <div className="col-12 col-md-5">
+            <div className="col-12 col-md-6">
               <img 
               data-aos="zoom-in-up"
                 className="img-fluid" 
                 src={SELFLOVE} 
                 alt="" 
-                width="465" 
+                width="600" 
                 height="600" 
               />
             </div>
